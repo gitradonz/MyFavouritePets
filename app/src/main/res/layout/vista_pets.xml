@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="#009688"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="10dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/root_layout_cv"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:background="#608831"
+        android:longClickable="false"
+        android:paddingTop="10dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/esFavorito"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="21dp"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:srcCompat="@android:drawable/btn_star_big_off" />
+
+            <ImageButton
+                android:id="@+id/imgEdit"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="6dp"
+                android:backgroundTint="#61110A1B"
+                card_view:layout_constraintStart_toEndOf="@+id/imgPet"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:srcCompat="@android:drawable/ic_menu_edit"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imgPet"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#02FFFFFF"
+                android:scaleType="centerInside"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/tvMostrarNombre"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:textAlignment="textStart"
+                android:textColor="#D5D4D4"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                card_view:layout_constraintStart_toEndOf="@+id/imgEdit"
+                card_view:layout_constraintTop_toTopOf="@+id/imgEdit" />
+
+            <ImageView
+                android:id="@+id/imgBorrar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="-7dp"
+                android:layout_marginBottom="19dp"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="@+id/imgEdit"
+                card_view:layout_constraintTop_toTopOf="@+id/esFavorito"
+                card_view:srcCompat="@android:drawable/ic_menu_delete" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

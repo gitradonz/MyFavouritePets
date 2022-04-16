@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PetsList"
+    android:background="@drawable/fondo1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRVPets"
+        android:layout_width="wrap_content"
+        android:layout_height="560dp"
+        android:layout_marginTop="10dp"
+        android:longClickable="true"
+        app:layout_constraintEnd_toEndOf="@+id/spnFiltro"
+        app:layout_constraintStart_toStartOf="@+id/spnFiltro"
+        app:layout_constraintTop_toBottomOf="@+id/spnFiltro" />
+
+    <Spinner
+        android:id="@+id/spnFiltro"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:background="#89B850"
+        android:entries="@array/sort"
+        android:popupBackground="#89B850"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btSaveFirestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/guardar_en_firestore"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/myRVPets"
+        app:layout_constraintStart_toStartOf="@+id/myRVPets" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

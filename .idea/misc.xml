@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePets/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/drawable/splash_screen.xml" value="0.2535087719298246" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/activity_add_pets.xml" value="0.23991228070175438" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/activity_main.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/activity_pets_detalle.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/activity_pets_list.xml" value="0.33" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/activity_pets_view.xml" value="0.25" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/activity_tabbed_detail_pet.xml" value="0.2337719298245614" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/fragment_detalleInfo.xml" value="0.25" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/fragment_historico.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/fragment_imc.xml" value="0.17280701754385966" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/fragment_informacion.xml" value="0.33" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/fragment_tabbed_detail_pet.xml" value="0.2969298245614035" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/fragment_ubicacion.xml" value="0.25" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/layout/vista_pets.xml" value="0.25" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/menu/menu_longclick.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/pablo/AndroidStudioProjects/MyFavouritePetsV2/app/src/main/res/menu/menu_opciones.xml" value="0.3087719298245614" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

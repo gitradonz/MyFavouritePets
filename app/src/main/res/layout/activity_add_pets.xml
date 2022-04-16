@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F092AC88"
+    tools:context=".AddPetsActivity">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/lbNom"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="390dp"
+        android:layout_height="66dp"
+        android:text="@string/lbSave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNomCie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbNomCie"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvNombre"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombre" />
+
+    <TextView
+        android:id="@+id/tvPelaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbPel"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvNomCie"
+        app:layout_constraintTop_toBottomOf="@+id/tvNomCie" />
+
+    <Spinner
+        android:id="@+id/spPelaje"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/pelaje"
+        app:layout_constraintStart_toStartOf="@+id/entryCie"
+        app:layout_constraintTop_toBottomOf="@+id/entryCie"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvClase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbClase"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvPelaje"
+        app:layout_constraintTop_toBottomOf="@+id/tvPelaje" />
+
+    <Spinner
+        android:id="@+id/spClase"
+        android:layout_width="182dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/clases"
+        app:layout_constraintStart_toStartOf="@+id/spPelaje"
+        app:layout_constraintTop_toBottomOf="@+id/spPelaje"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <RatingBar
+        android:id="@+id/rbAmor"
+        android:layout_width="239dp"
+        android:layout_height="48dp"
+        android:numStars="5"
+        android:rating="5"
+        app:layout_constraintEnd_toEndOf="@+id/tvAmorosa"
+        app:layout_constraintStart_toStartOf="@+id/tvAmorosa"
+        app:layout_constraintTop_toBottomOf="@+id/tvAmorosa"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btAddImg"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#07478B"
+        android:text="@string/lbAddImg"
+        app:layout_constraintBottom_toTopOf="@+id/btAdd"
+        app:layout_constraintEnd_toEndOf="@+id/rbAmor"
+        app:layout_constraintStart_toStartOf="@+id/rbAmor"
+        app:layout_constraintTop_toBottomOf="@+id/rbAmor" />
+
+    <TextView
+        android:id="@+id/tvAmorosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/lbSelAmor"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvAddLink"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddLink" />
+
+    <TextView
+        android:id="@+id/tvAddLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbAddLink"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvClase"
+        app:layout_constraintTop_toBottomOf="@+id/tvClase" />
+
+    <EditText
+        android:id="@+id/entryNom"
+        android:layout_width="192dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvNombre"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/entryCie"
+        android:layout_width="187dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/entryNom"
+        app:layout_constraintTop_toBottomOf="@+id/entryNom"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/entryLink"
+        android:layout_width="197dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/spClase"
+        app:layout_constraintTop_toBottomOf="@+id/spClase"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

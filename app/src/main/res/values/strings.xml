@@ -1,0 +1,93 @@
+<resources>
+    <!-- Títulos de aplicación -->
+    <string name="app_name">MyFavouritePets V2</string>
+    <string name="prm">Proyecto realizado por Pablo Ríos Martínez (Click aquí)</string>
+    <string name="datosApp">Programación Multimedia y Dispositivos Móviles\nProyecto realizado con Kotlin + AS\n\n\n Funcionalidades añadidas:\n\n - Multiples widgets: Toast, Snackbar, RecyclerView…\n - Intents implícitos y explícitos\n - Uso de activitys\n - Gestión de permisos\n - Implementación de menús\n - Persistencia de datos (SQLite)\n - Interfaz longClick\n - Uso de Firebase\n - Uso de Maps\n - Uso de Tabs/Fragments\n - Uso de dialogs\n - Uso de clases serializables\n - Filtros\n - Gestión de imágenes\n - Diseño de aplicación\n - Comentarios y estructuración de código\n - Control de errores\n\n\n\n\n\n\n\nPablo Ríos Martínez\nMyFavouritePets - 2021</string>
+
+
+    <!-- Strings para los layouts -->
+    <string name="lbDel">Borrar mascota</string>
+    <string name="lbEdit">Modificar mascota</string>
+    <string name="lbSave">Guardar mascota</string>
+    <string name="lbAdd">Añadir mascota</string>
+    <string name="lbAddImg">Añadir imagen</string>
+    <string name="lbVer">Ver mascotas</string>
+    <string name="lbNom">Nombre: </string>
+    <string name="lbNomCie">Científico: </string>
+    <string name="lbPel">Pelaje: </string>
+    <string name="lbClase">Clase: </string>
+    <string name="lbAmor">Amorosidad: </string>
+    <string name="lbLink">Link: </string>
+    <string name="lbAddLink">Enlace: </string>
+    <string name="lbAddFav">Añadir a favoritos</string>
+    <string name="lbSaveEdit">Guardar mascota</string>
+    <string name="lbSelAmor">Amorosidad: </string>
+    <string name="listaDePets">Lista de mascotas</string>
+    <string name="lbNomNomCie">Nombre científico:</string>
+    <string name="tipo_de_clase">Tipo de clase</string>
+    <string name="prueba">Prueba de label</string>
+    <string name="amorosidad">Amorosidad:</string>
+    <string name="todo">TODO</string>
+    <string name="masInfo">Cambiar información</string>
+    <string name="infoProyecto"> </string>
+    <string name="menuBorrar">Borrar</string>
+    <string name="menuEditar">Editar</string>
+    <string name="petsviewLabel">Información detallada</string>
+    <string name="addPetsLabel">Características de la mascota</string>
+
+
+    <!-- Strings para código .kt -->
+    <string name="alertaPetEdit">La mascota ha sido editada. </string>
+    <string name="alertaPetAdd">Nueva mascota añadida</string>
+    <string name="lbSinPets">No hay mascotas registradas</string>
+    <string name="dialogBorrado">¿Seguro que quieres eliminar a %s ?</string>
+    <string name="ok">OK</string>
+    <string name="nombre">Nombre</string>
+    <string name="mascotaBorrada">Se ha eliminado %s correctamente.</string>
+    <string name="mascotaGuardada">Mascota guardada correctamente</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cancelado">Eliminacion cancelada</string>
+    <string name="cancelado2">Cancelado</string>
+    <string name="imgAdded">Imagen añadida correctamente</string>
+    <string name="imgNotAdded">No se ha añadido ninguna imagen</string>
+    <string name="rellenarCampo">Debes rellenar todos los campos (Nombre máx. 9char)</string>
+    <string name="cancelarJK">%s se ha salvado esta vez…</string>
+    <string name="ordenNombre">Ordenado por nombre (A->Z)</string>
+    <string name="ordenAmor">Ordenado de menor a mayor amorosidad</string>
+    <string name="ordenFav">Ordenado por favoritos</string>
+    <string name="petAddedFav">Mascota añadida a favoritos</string>
+    <string name="petDeletedFav">Mascota eliminada de favoritos</string>
+
+    <string name="mascotaXBorrada">%s se ha eliminado correctamente.</string>
+    <string name="borrarEnMenu">Se ha eliminado %s de las mascotas.</string>
+    <string name="firestorePath">MyFavPets</string>
+    <string name="guardar_en_firestore">GUARDAR EN FIRESTORE</string>
+    <string name="saveFirestore">Copia de seguridad guardada en Firestore correctamente.</string>
+    <string name="tituloUbicacion">%s</string>
+
+
+    <!-- Arrays de strings para los ordenes -->
+    <string-array name="sort">
+        <item> Seleccionar orden </item>
+        <item>Nombre</item>
+        <item>Amorosidad</item>
+        <item>Favoritos</item>
+    </string-array>
+
+
+    <!-- Arrays de strings para clase y pelaje -->
+    <string-array name="clases">
+        <item>Ave</item>
+        <item>Mamífero</item>
+        <item>Anfibio</item>
+        <item>Insecto</item>
+    </string-array>
+    <string-array name="pelaje">
+        <item>Corto</item>
+        <item>Largo</item>
+        <item>Lanudo</item>
+        <item>Calvo</item>
+    </string-array>
+
+
+</resources>

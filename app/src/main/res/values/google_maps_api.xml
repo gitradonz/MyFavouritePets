@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="google_maps_key" templateMergeStrategy="preserve" tools:ignore="Typos">AIzaSyBRiIPuzGkDt1AIuYSBk3iVCoM3uA-FlC8</string>
+</resources>
